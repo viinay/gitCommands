@@ -1,8 +1,8 @@
 # gitCommands
 
 
-git remote add origin git@gitlab.com:viinay/project1.git
-git branch --set-upstream-to=origin/master
+git remote add originName git@gitlab.com:viinay/project1.git
+#git branch --set-upstream-to=origin/master
 /*nano .git/config
   [remote "origin"]
         url = git@gitlab.com:viinay/project1.git
@@ -11,8 +11,8 @@ git branch --set-upstream-to=origin/master
         remote = origin
         merge = refs/heads/master
 */
-#add branch method2
-git config branch.master.remote origin
+#add branch method2 (works)
+git config branch.master.remote originName
 git config branch.master.merge refs/heads/master
 
 
