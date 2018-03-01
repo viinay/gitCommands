@@ -1,0 +1,8 @@
+# gitCommands
+
+
+git remote add origin git@gitlab.com:viinay/project1.git
+git branch --set-upstream-to=origin/master
+
+git remote -v #to view remote repo
+git branch #to view branch
