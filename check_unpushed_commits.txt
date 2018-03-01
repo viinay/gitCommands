@@ -1,0 +1,12 @@
+ git cherry -v
+ 
+ git log @{u} #@{u} or {upstream} means upstream branch of the current branch
+ 
+ 
+
+git log origin/master..HEAD
+
+#You can also view the diff using the same syntax
+
+git diff origin/master..HEAD
+
